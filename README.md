@@ -12,12 +12,13 @@
 │   ├── oracle II-android-migrate.sh    # Script to assist in Android data migration
 │   ├── oracle II-fullbackup.sh         # Script to perform a full backup on Android
 │   └── oracle III-sslpin[1-4].js       # Frida script to bypass SSL pinning on Android
-└── iOS
-    ├── CID-fridafilename.sh            # Script to help configuring Frida's filename 
-    ├── CID-fridaport.sh                # Script to help configuring Frida's port 
-    ├── RIC-iOS-BCbypass.js             # Frida script to bypass BC on iOS devices
-    └── RIC-iOS-ABCbypass.js            # Frida script to bypass ABC on iOS devices
-
+├── iOS
+│   ├── CID-fridafilename.sh            # Script to help configuring Frida's filename 
+│   ├── CID-fridaport.sh                # Script to help configuring Frida's port 
+│   ├── RIC-iOS-BCbypass.js             # Frida script to bypass BC on iOS devices
+│   └── RIC-iOS-ABCbypass.js            # Frida script to bypass ABC on iOS devices
+│
+└── sheets                              # Folder for extended results
 ```
 
 ## Scripts and Tools Description
