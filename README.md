@@ -36,7 +36,7 @@
   - `RIC-iOS-BCbypass.js` : Frida script used to bypass jailbreak checks for BC.
 
 ## Additional Notes
-
+- Details of comparative study can be found at [here](https://anonymous.4open.science/r/BankApps-0B90/Comparative_Study.md)
 - For test oracle I,III on iOS, we utilize a hooking framework, [objection](https://github.com/sensepost/objection/).
 - For test oracle II on iOS, we utilize [Apps Manager](https://www.tigisoftware.com/) from TIGI Software to backup and restore app's sandbox/Keychain data.
 - For BC/ABC app on iOS, we connect to the JavaScript context through Safari hence there's no Frida script for it.
