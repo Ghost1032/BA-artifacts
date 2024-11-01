@@ -35,8 +35,12 @@
   - `RIC-iOS-ABCbypass.js` : Frida script used to bypass jailbreak checks for ABC.
   - `RIC-iOS-BCbypass.js` : Frida script used to bypass jailbreak checks for BC.
 
-## Comparative Study
-- Details of comparative study can be found at [here](https://anonymous.4open.science/r/BankApps-0B90/Comparative_Study.md)
+## Comparative Studies
+The comparative studies include the following aspects:
+- The deployment of app hardening techniques in 100 banking apps.
+- Test results for 7 non-banking apps and 7 additional banking apps.
+
+Details can be found at [here](https://anonymous.4open.science/r/BankApps-0B90/Comparative_Study.md)
 
 ## Additional Notes
 - For test oracle I,III on iOS, we utilize a hooking framework, [objection](https://github.com/sensepost/objection/).
