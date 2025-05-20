@@ -11,12 +11,14 @@
 │   ├── oracle I-bioHookForAndroid12.js # Frida script for biometric APIs on Android 12
 │   ├── oracle II-android-migrate.sh    # Script to assist in Android data migration
 │   ├── oracle II-fullbackup.sh         # Script to perform a full backup on Android
+│   ├── oracle III-mitm.py              # Script for hosting a MitM server to filter/export requests/responses
 │   └── oracle III-sslpin[1-4].js       # Frida script to bypass SSL pinning on Android
 ├── iOS
 │   ├── CID-fridafilename.sh            # Script to help configuring Frida's filename 
 │   ├── CID-fridaport.sh                # Script to help configuring Frida's port 
 │   ├── RIC-iOS-BCbypass.js             # Frida script to bypass BC on iOS devices
-│   └── RIC-iOS-ABCbypass.js            # Frida script to bypass ABC on iOS devices
+│   ├── RIC-iOS-ABCbypass.js            # Frida script to bypass ABC on iOS devices
+│   └── mitm.py                         # Script for hosting a MitM server to filter/export requests/responses
 │
 └── sheets                              # Folder for extended results
 ```
@@ -26,6 +28,7 @@
 - **Android/iOS**
   - `CID-fridafilename.sh`: Configures the filename of the Frida  binary when testing CID of an app.
   - `CID-fridaport.sh`: Configures the listening port of Frida when testing CID of an app.
+  - `mitm.py`: Hosts a MitM proxy server for further PSAT extraction from requests.
 - **Android**
   - `oracle I-bioHookForAndroid11.js` and `oracle I-bioHookForAndroid12.js`:  Hooks for biometric APIs on Android for test oracle I.
   - `oracle II-android-migrate.sh`: Facilitates the migration of app data across different Android devices for test oracle II.
